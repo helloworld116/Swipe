@@ -14,6 +14,10 @@
 		15DAFBA11A75DC33001E14F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DAFBA01A75DC33001E14F7 /* Images.xcassets */; };
 		15DAFBA41A75DC33001E14F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15DAFBA21A75DC33001E14F7 /* LaunchScreen.xib */; };
 		15DAFBB01A75DC33001E14F7 /* SwipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DAFBAF1A75DC33001E14F7 /* SwipeTests.m */; };
+		15DAFBBB1A75DC5C001E14F7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DAFBBA1A75DC5B001E14F7 /* BaseViewController.m */; };
+		15DAFBBE1A76227C001E14F7 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DAFBBD1A76227C001E14F7 /* TopViewController.m */; };
+		15DAFBC11A76228E001E14F7 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DAFBC01A76228E001E14F7 /* CenterViewController.m */; };
+		15DAFBC41A762299001E14F7 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DAFBC31A762299001E14F7 /* RightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		15DAFBA91A75DC33001E14F7 /* SwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15DAFBAE1A75DC33001E14F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15DAFBAF1A75DC33001E14F7 /* SwipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeTests.m; sourceTree = "<group>"; };
+		15DAFBB91A75DC5B001E14F7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		15DAFBBA1A75DC5B001E14F7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		15DAFBBC1A76227C001E14F7 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		15DAFBBD1A76227C001E14F7 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		15DAFBBF1A76228E001E14F7 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		15DAFBC01A76228E001E14F7 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		15DAFBC21A762299001E14F7 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		15DAFBC31A762299001E14F7 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,14 @@
 				15DAFBA01A75DC33001E14F7 /* Images.xcassets */,
 				15DAFBA21A75DC33001E14F7 /* LaunchScreen.xib */,
 				15DAFB931A75DC32001E14F7 /* Supporting Files */,
+				15DAFBB91A75DC5B001E14F7 /* BaseViewController.h */,
+				15DAFBBA1A75DC5B001E14F7 /* BaseViewController.m */,
+				15DAFBBC1A76227C001E14F7 /* TopViewController.h */,
+				15DAFBBD1A76227C001E14F7 /* TopViewController.m */,
+				15DAFBBF1A76228E001E14F7 /* CenterViewController.h */,
+				15DAFBC01A76228E001E14F7 /* CenterViewController.m */,
+				15DAFBC21A762299001E14F7 /* RightViewController.h */,
+				15DAFBC31A762299001E14F7 /* RightViewController.m */,
 			);
 			path = Swipe;
 			sourceTree = "<group>";
@@ -219,9 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DAFBC41A762299001E14F7 /* RightViewController.m in Sources */,
+				15DAFBBE1A76227C001E14F7 /* TopViewController.m in Sources */,
 				15DAFB9C1A75DC33001E14F7 /* ViewController.m in Sources */,
+				15DAFBBB1A75DC5C001E14F7 /* BaseViewController.m in Sources */,
 				15DAFB991A75DC33001E14F7 /* AppDelegate.m in Sources */,
 				15DAFB961A75DC33001E14F7 /* main.m in Sources */,
+				15DAFBC11A76228E001E14F7 /* CenterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

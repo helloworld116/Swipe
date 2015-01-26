@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseViewController.h
 //  Swipe
 //
 //  Created by sdzg on 15-1-26.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewController.h"
 
-@interface ViewController : BaseViewController
+@interface BaseViewController : UIViewController
 
 @end

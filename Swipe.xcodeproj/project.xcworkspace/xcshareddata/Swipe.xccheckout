@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>02692536-4D26-4ACF-A66F-5B72CAFAECFE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Swipe</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>53802FEA82B9A7164EFD9465E980A99A3DC6ACA1</key>
+		<string>https://github.com/helloworld116/Swipe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Swipe.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>53802FEA82B9A7164EFD9465E980A99A3DC6ACA1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/helloworld116/Swipe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>53802FEA82B9A7164EFD9465E980A99A3DC6ACA1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>53802FEA82B9A7164EFD9465E980A99A3DC6ACA1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swipe</string>
+		</dict>
+	</array>
+</dict>
+</plist>

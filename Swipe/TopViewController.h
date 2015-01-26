@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TopViewController.h
 //  Swipe
 //
 //  Created by sdzg on 15-1-26.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseViewController.h"
-
-@interface ViewController : BaseViewController
+@interface TopViewController : UIViewController
 
 @end
